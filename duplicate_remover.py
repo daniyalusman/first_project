@@ -1,6 +1,6 @@
 # Read data from file -> remove duplicates -> write unique data in new file
 import os
-file_path = input("Enter File Path: ")
+file_path = input("Enter File path: ")
 unique_data = []
 if os.path.exists(file_path):
     with open(file_path, 'r') as file: # reading file and remove duplicates
@@ -30,4 +30,5 @@ print('Hi')
 
 
     
+
 
